@@ -1,0 +1,54 @@
+header, h3{
+    padding-left: 41px;
+}
+.container {
+    display: flex;
+}
+.container-2 {
+    display: flex;
+    margin: 81px;
+    border: 1px solid silver;
+    border-left: none;
+    border-right: none;
+    align-items: center;
+}
+.logos{
+    padding-right: 40px;
+    margin: 10px;
+}
+.logos, img{
+    width: 50px;
+    padding-left: 11px;
+}
+.hpa {
+    margin: 50px;
+    padding-left: 30px;
+}
+.almost{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 14px;
+}
+.start-journey{
+    font-size: 33px;
+    font-family: 'PT Sans', sans-serif;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-color: #D85678;
+    padding: 6px 30px;
+    font-weight: lighter;
+    border-radius: 50px;
+}
+.main-camera img{
+    width: 60%;
+    padding-left: 15%;
+    padding-top: 65px;
+}
+.fa-arrow-right{
+    padding-left: 5px;
+}
+.pop-col{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
