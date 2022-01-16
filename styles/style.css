@@ -27,6 +27,7 @@ header, h3{
 .almost{
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 14px;
+    padding-bottom: 10px;
 }
 .start-journey{
     font-size: 33px;
@@ -40,6 +41,22 @@ header, h3{
     font-weight: lighter;
     border-radius: 50px;
 }
+.link-button-2{
+    text-decoration: none;
+    color: #D85678;
+    font-size: 20px;
+    font-family: 'Dongle', sans-serif;
+    float: right;
+    padding-right: 50px;
+    margin-bottom: 0px;
+}
+.link-button-3{
+    text-decoration: none;
+    color: #D85678;
+    font-size: 20px;
+    font-family: 'Dongle', sans-serif;
+    padding-left: 50px;
+}
 .main-camera img{
     width: 60%;
     padding-left: 15%;
@@ -51,4 +68,98 @@ header, h3{
 .pop-col{
     font-family: 'Rubik', sans-serif;
     text-align: center;
+    padding-left: 15px;
+    font-size: 40px;
+}
+.container-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+header, h2 {
+    padding-right: 18px;
+}
+h4 {
+    margin-top: 8px;
+    padding-left: 6px;
+    font-family: 'Rubik', sans-serif;
+}
+h5 {
+    padding-left: 6px;
+    font-size: 12px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.drone{
+    margin: 70px;
+    margin-top: 0px;
+    padding-right: 5px;
+    border: 6px solid #d8d8d8;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.drone img{
+   width: 180px;
+   height: 150px;
+   margin-top: 5px;
+   padding-left: 5px;
+   margin: 1px;
+}
+.fa-star,
+.fa-star-half-alt{
+    color: orange;
+    font-size: 10px;
+}
+.fa-angle-right{
+    font-size: 13px;
+}
+.rating{
+    font-size: 12px;
+}
+.star-rating{
+    display: flex;
+    align-items: center;
+}
+.h5-price{
+   margin: 0px;
+}
+.worldwide {
+    color: gray;
+    font-size: 18px;
+    margin: 0px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    font-family: 'Dongle', sans-serif;
+}
+.container-4 {
+    display: flex;
+}
+.pop-heading{
+    font-family: 'Rubik', sans-serif;
+    padding-left: 50px;
+}
+.p-heading{
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding-left: 50px;
+    font-size: 12px;
+}
+.popular, img{
+    width: 130%;
+}
+.popular{
+    margin: 50px;
+    padding-left: 30px;
+}
+.footer {
+    padding: 5px;
+    background-color: #000080;
+}
+.footer .copyright{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 14px;
+}
+.rights{
+    font-size: 18px;
+    font-family: 'Dongle', sans-serif;
 }
