@@ -163,3 +163,38 @@ h5 {
     font-size: 18px;
     font-family: 'Dongle', sans-serif;
 }
+/*  ----------------- 
+     Media Queries
+   --------------- */
+
+/* Mobile Devices */
+@media only screen and (max-width:500px){
+    .container{
+        width: 100%;
+    }
+    .main-camera img{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .link-button{
+        padding: 3px 15px;
+    }
+    .container-3{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 70px;
+    }
+    .popular img{
+        margin: 40px;
+    }
+    .popular{
+    margin: 50px;
+    padding-left: 30px;
+    }
+    .container-2{
+        margin: 0px;
+    }
+    .logos{
+        margin: 0px;
+        width: 80%;
+    }
+}
+/* For Mobile Devices */
