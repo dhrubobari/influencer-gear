@@ -168,7 +168,7 @@ h5 {
    --------------- */
 
 /* Mobile Devices */
-@media only screen and (max-width:500px){
+@media only screen and (max-width:688px){
     .container{
         width: 100%;
     }
@@ -180,7 +180,7 @@ h5 {
     }
     .container-3{
         grid-template-columns: repeat(1, 1fr);
-        margin: 70px;
+        margin: 180px;
     }
     .popular img{
         margin: 40px;
@@ -197,4 +197,33 @@ h5 {
         width: 80%;
     }
 }
-/* Mobile Devices */
+/* Tablet Devices */
+    @media only screen and (min-width: 688px) and (max-width:992px){
+        .container{
+            width: 100%;
+        }
+        .main-camera img{
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .link-button{
+            padding: 3px 15px;
+        }
+        .container-3{
+            grid-template-columns: repeat(2, 1fr);
+            margin: 180px;
+        }
+        .popular img{
+            margin: 40px;
+        }
+        .popular{
+        margin: 50px;
+        padding-left: 30px;
+        }
+        .container-2{
+            margin: 0px;
+        }
+        .logos{
+            margin: 0px;
+            width: 80%;
+        }
+    }
